@@ -1,0 +1,53 @@
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 70%;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  padding: 16px;
+  left: 15%;
+  top: 30%;
+  box-sizing: border-box;
+  transition: all 0.5s ease-out ;
+}
+
+ @media (min-width: 600px) {
+  .Modal {
+    width: 500px;
+    left: calc(50% - 250px);
+  }
+} 
+
+/* .Modal input,
+.Modal p {
+  width: 300px; 
+  font-weight: bold;
+  padding: 5px;
+  margin: 5px auto;
+  text-align: left;
+} */
+
+.Modal .Form {
+  width: 200px;
+}
+
+.Modal button {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 200px;
+  padding: 5px;
+  margin: 5px auto;
+}
+.Modal button:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+  width: 300px;
+  transition: all 0.5s ease-out;
+}

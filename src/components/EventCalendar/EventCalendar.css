@@ -1,0 +1,16 @@
+.fc .fc-col-header-cell-cushion {
+  display: inline-block;
+  padding: 2px 4px;
+  color: rgb(62, 55, 161);
+  text-transform: uppercase;
+}
+
+.fc-daygrid-day-bg {
+  background-color: pink;
+}
+
+.fc .fc-daygrid-day-number{
+  font-weight: bolder;
+}
+
+
